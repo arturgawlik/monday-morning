@@ -1,7 +1,10 @@
 {
   "name": "monday-morning",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./dist/cli.js",
+  "bin": {
+    "mm": "./dist/cli.js"
+  },
   "type": "module",
   "scripts": {
     "dev": "node --experimental-strip-types ./src/cli.ts",
@@ -9,7 +12,7 @@
   },
   "author": "Artur Gawlik",
   "license": "ISC",
-  "description": "Helps fire vscode + git pull on monday mornings",
+  "description": "Simple cli that helps fire vscode + git pull on monday mornings",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/arturgawlik/monday-morning"

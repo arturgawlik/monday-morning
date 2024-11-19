@@ -24,7 +24,7 @@ export async function askCatalogsToChoose(
 ): Promise<string[]> {
   const choices = catalogOptions.map((v) => ({ name: v, value: v }));
   const chhosedCatalogs = await checkbox({
-    message: "What you want to do",
+    message: "Where you want to do",
     choices,
   });
   return chhosedCatalogs;
