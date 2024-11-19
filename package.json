@@ -8,8 +8,7 @@
   "type": "module",
   "scripts": {
     "dev": "node --experimental-strip-types ./src/cli.ts",
-    "build": "tsc",
-    "publish": "npm publish"
+    "build": "tsc"
   },
   "author": "Artur Gawlik",
   "license": "ISC",
