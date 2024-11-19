@@ -1,0 +1,27 @@
+{
+  "name": "monday-morning",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --experimental-strip-types ./src/cli.ts",
+    "build": "tsc"
+  },
+  "author": "Artur Gawlik",
+  "license": "ISC",
+  "description": "Helps fire vscode + git pull on monday mornings",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arturgawlik/monday-morning"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@inquirer/prompts": "^7.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.1",
+    "typescript": "^5.8.0-dev.20241119"
+  }
+}
